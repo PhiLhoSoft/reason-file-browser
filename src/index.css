@@ -12,13 +12,21 @@ body,html
 	height: 100%;
 }
 
-html {
+html
+{
 	font-size: 0.625em;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after
+{
+	box-sizing: inherit;
 }
 
 /* App */
 
-.title {
+.title
+{
 	text-align: center;
 	font-weight: bold;
 	font-size: 6rem;

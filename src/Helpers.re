@@ -1,4 +1,3 @@
-open SharedTypes;
+// open SharedTypes;
 
 let toString = React.string;
-
